@@ -1,0 +1,110 @@
+
+.heading-head{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 42px;
+    padding-top: 200px;
+    padding-bottom: 0;
+    line-height: normal;
+}
+.heading-h{
+    color:white;
+    font-family: Merriweather;
+    font-size: 72px;
+    line-height: normal;
+    
+}
+nav{
+    background-image: url('picture/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+    margin: 50px 10px 100px 80px ;
+    
+}
+.discount-content{
+    text-align: center;
+    color: #f00;
+    font-size: 88px;
+    font-family:   Helvetica Bold;
+
+}
+.discount-below{
+    color: #f00;
+    text-align: center;
+    font-size: 24px;
+    line-height: normal;
+}
+.below{
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+}
+.image-1{
+    align-items: center;
+    margin: 0 380px;
+}
+.div-1{
+    background-image: url('picture/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin:50px 10px 100px 80px;
+}
+.heading-div{
+    color: #FFF;
+    font-family: Merrweather;
+    font-size: 60px;
+    padding: 126px 150px 0  ;
+
+}
+.extension{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    padding-left: 150px;
+}
+.link-1{
+    color: #FFF;
+    font-size: 20px;
+    padding-left: 200px;
+    text-decoration: none;
+}
+main div{
+    text-align: center;
+}
+ .span-1{
+    color: #f00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+}
+main h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+}
+main button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    background-color: #f00;
+    display: inline-flex;
+}
+main button a{
+    text-decoration: none;
+    color: #FFF;
+}
+.middle{
+    text-align: center;
+    font-size: larger;
+    
+}
+
+
+.span-2{
+    color: #f00;
+}
