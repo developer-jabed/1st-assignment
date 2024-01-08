@@ -40,10 +40,12 @@ nav p{
     margin: 0 380px;
 }
 .div-1{
+    display: flex;
     background-image: url('picture/Vectorrr.png');
     width: 1320px;
     height: 600px;
     margin:50px 10px 100px 80px;
+    justify-content: space-between;
 }
 .heading-div{
     color: #FFF;
@@ -64,6 +66,9 @@ nav p{
     padding-left: 200px;
     text-decoration: none;
 }
+/* .external-pic{
+    padding: 0 0px 900px 900px;
+} */
 main div{
     text-align: center;
 }
@@ -91,6 +96,99 @@ main button a{
     color: #FFF;
 }
 
+.discount-banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.new-discount-offer{
+    max-width: 392px;
+}
+
+.new-discount-offer h3{
+    color: #f00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.new-discount-offer h2{
+    color: #070211;
+    font-family: Merrweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.new-discount-offer p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.discount-banner figure {
+    max-width: 463px;
+    padding: 49px;
+    border: 15px solid #f00;
+    border-radius: 463px;
+    margin-left: 70px;
+    margin-right: 118px;
+}
+
+.discount-banner figure img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+
+.another-banner{
+    max-width: 276px;
+}
+
+.another-banner h2{
+    width: 100%;
+    color: #f00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 110px;
+}
+
+.another-banner p {
+    margin-top: 16px;
+    width: 100%;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font: size 20px ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+.another-banner below-banner{
+    max-width: 140px;
+}
+
+
+.another-banner below-banner{
+    width: 100%;
+}
 div section h6{
     font-size: 22px;
 }
@@ -127,23 +225,7 @@ div section span{
 }
 
 
-.box{
-    box-sizing: border-box;
-}
-.images{
-    float: left;
-    width: ;
-    padding: 5px;
-    margin-left: 30px;
-}
-#pic{
-    width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    justify-content: space-between;
-    display: flex;
-}
+
 .last{
    padding-top: 500px;
    text-align: left;
