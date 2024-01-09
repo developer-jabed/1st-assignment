@@ -309,3 +309,239 @@ div section span{
     font-family: Inter;
     font-size: 20px;
 }
+
+.footer{
+    margin-top: 120px;
+    width: 100%;
+}
+
+.picture-heading{
+    max-width: 896px;
+}
+
+.picture-heading .picture-heading-title{
+    color: #foo;
+    font-family:Inter;
+    font-size: 24px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    margin-bottom:16px;
+}
+
+
+.picture-heading .picture-heading-another-title{
+    color:#070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.picture-heading .picture-parag{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+ .portfolio-images img{
+    vertical-align: bottom;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+ .portfolio-images img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+ }
+
+ .footer-below{
+    background-color: rgb(20, 133, 133);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    padding: 80px 0px;
+    background: rgba(255, 0, 0, 0.05);
+
+ }
+
+ .footer-below .mail{
+    max-width: 150px;
+    margin-bottom: 40px;
+ }
+
+
+ .footer-below .mail img{
+    width: 100%;
+ }
+
+.footer-below h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    max-width: 512px;
+}
+
+.footer-below p{
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+}
+
+.email{
+    display:flex ;
+    max-width: 648px;
+    margin-top: 48px;
+}
+
+
+#two{
+    border: none;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    padding: 24px 56px ;
+
+}
+
+#one{
+    border: none;
+    outline: none;
+    border-radius: 50px 0px ;
+    width: 438px;
+    padding-left: 30px;
+}
+
+.email input #one ::placeholder{
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-foot{
+    margin-top: 120px;
+    background-color: #070211;
+    max-width: 1600px;
+    margin: 120px auto 0px auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 275px 50px 140px;
+}
+
+
+
+.top p{
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    max-width: 375px;
+
+}
+
+
+.top .contact p{
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-call{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    max-width: 1320px;
+    margin: o auto;
+    width: 82.5%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 48px 0px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 82.5%;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-bottom a{
+    color: white;
+    background-color: black;
+}
+
+.mid{
+    background-color: #070211;
+}
